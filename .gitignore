@@ -1,0 +1,10 @@
+# Local Claude Code config (machine-specific permission allowlist — not for sharing)
+.claude/settings.local.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
