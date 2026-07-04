@@ -31,6 +31,13 @@ Execute in this exact order:
 6. **Write the final prediction** to `predictions/<YYYY-MM-DD>-<home>-vs-<away>.md`
    using `knowledge/output-template.md`. Note any surviving CEO caution or bias flag.
 
+7. **Export the Simplified-Chinese PDF.** Translate the final prediction into Simplified
+   Chinese, write it to `predictions/<YYYY-MM-DD>-<home>-vs-<away>-zh.md`, then run
+   `python3 tools/md2pdf.py <that-zh.md> predictions/<YYYY-MM-DD>-<home>-vs-<away>-zh.pdf`
+   to produce the CJK PDF (the tool renders Chinese via Noto Sans CJK; no extra deps).
+   The English `.md` remains the canonical source; the Chinese PDF is an additional
+   deliverable produced every run.
+
 Keep your chat-side summary to a few lines — the detail lives in the written file.
 
 Reminder of the prime directive: **be confident about direction, honest about exact
