@@ -30,5 +30,15 @@ France are a decisive favourite in elite form — 13 goals in four games, Mbapp�
 - **Kylian Mbappé (FRA):** 18 World Cup goals (one off Messi's record) and 10 in knockouts (a record) — the centre of gravity against a deep block, and the penalty taker.
 - **Julio Enciso (PAR):** Paraguay's lone realistic scorer; already headed one in vs Germany — the name to watch if a cross or set-piece drops in the box.
 
+## Corners read (direction — exact counts are high-variance)
+
+The direction here is as clear as the match itself; the precise numbers are not — treat the bands as leans, not commitments.
+
+- **Corner-count winner:** **France, comfortably** — confidence high. France overload the flanks (elite wide forwards + overlapping full-backs), and Paraguay's low block clears crosses out for corners. The same possession gap that drives the result drives the corners.
+- **France corners:** lean **over ~6.5**, band ~7–10. (Basis: 6.4/game at this World Cup, ~10.2/game at Euro 2024; Paraguay concede 8.5/game.)
+- **Paraguay corners:** **low, ~1–3.** They average just 2.0/game — the tournament's lowest-possession side rarely sustains the attacks that earn corners.
+- **Total match corners:** lean toward **double digits (~10–12)**; the market line sits ~9.5–10.5. Two-sided caveat: an early France goal can *suppress* the total (France coast), while a frustrated France chasing a breakthrough *drives it up* via crossing volume — so the total is genuinely the softest call here.
+- **Data basis (2-yr):** France a consistently high-corner possession side (~10/game at Euro 2024, 6.4 at WC 2026); Paraguay a low-possession block (2.0 for / 8.5 against per game). Head-to-head corner data is negligible (the sides seldom meet), so this rests on team profiles, not H2H.
+
 ---
 *Gate notes:* Written as the deliberate correction of the Canada–Morocco miss — respect the favourite's margin (2-0 modal, not a 1-0 anchor), keep ET *secondary* (not primary), and BTTS-no because Paraguay is the Ghana pole (near-zero creation), not the Cape Verde pole. Bias audit returned CLEAN (all 10 + an explicit recency-contamination check pass) — no compression, no gifted goal, no overcorrection into a blowout. CEO approved (no downgrade) with one caution: **if a lightning delay hits and Paraguay push men forward on the restart, the 2-1 secondary becomes more live — hold BTTS-no as a lean, not a lock, and don't be surprised by a set-piece goal in a chaotic restart.**
