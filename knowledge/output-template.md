@@ -42,6 +42,14 @@ is locked, say why. If it's a coin flip, name the randomness.>
 
 <1–2 names, both sides if relevant, with a one-line reason each.>
 
+## Corners read (direction — exact counts are high-variance)
+
+<Direction first: which side wins the corner count and rough confidence — usually the
+possession-dominant/attacking side. Then leans, NOT commitments: each team's corner band
+per game and a total-match band, grounded in ~2-yr corners-for / corners-against rates.
+Note the head-to-head sample (often negligible for national teams → rely on team profiles).
+Treat exact counts like exact scorelines: the direction is knowable, the number is luck.>
+
 ---
 *Gate notes:* <any surviving bias-audit flag or CEO downgrade/caution — one line. If clean,
 write "Bias audit clean; CEO approved.">

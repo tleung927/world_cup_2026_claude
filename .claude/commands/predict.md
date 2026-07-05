@@ -10,6 +10,12 @@ directly; the specialists do.
 
 Fixture: $ARGUMENTS
 
+**If no fixture was given above** (empty `$ARGUMENTS`): select it automatically. Via web
+search of the current 2026 World Cup schedule, find the SOONEST upcoming match that has not
+yet kicked off and does not already have a file in `predictions/`, and use that fixture.
+State which one you picked. (If a fixture *was* given, use it as-is — a specific request or
+a deliberate near-kickoff re-run.)
+
 Execute in this exact order:
 
 1. **Gate 1 — classify.** Invoke `match-type-classifier`. Do not proceed without a
@@ -30,6 +36,9 @@ Execute in this exact order:
 
 6. **Write the final prediction** to `predictions/<YYYY-MM-DD>-<home>-vs-<away>.md`
    using `knowledge/output-template.md`. Note any surviving CEO caution or bias flag.
+   Include the **Corners read** section (from the match-analyst's corner profile) — corner
+   direction plus high-variance per-team and total bands, per the template. Corners are a
+   supplementary read, not a gated call, so they bypass the two gates.
 
 7. **Write the Simplified-Chinese translation.** Translate the final prediction into
    Simplified Chinese and write it to `predictions/<YYYY-MM-DD>-<home>-vs-<away>-zh.md`.

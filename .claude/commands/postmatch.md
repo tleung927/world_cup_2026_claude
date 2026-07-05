@@ -10,6 +10,12 @@ record — do not soften a miss to save face, and do not inflate a lucky hit.
 
 Result: $ARGUMENTS
 
+**If no result was given above** (empty `$ARGUMENTS`): determine it automatically. Via web
+search, find the most recently COMPLETED 2026 World Cup match that is not yet logged at the
+end of `knowledge/lessons-learned.md`, fetch its final score (plus any "after extra time" /
+"won on penalties" note), and log that match. State which one you picked. (If a result *was*
+given, use it as-is.)
+
 Execute these steps:
 
 1. **Parse** the fixture and the actual result from the input (teams, final score, and any
@@ -69,6 +75,11 @@ Execute these steps:
    - the category logged
    - the rule reinforced or added
    Keep it brief; the detail lives in the updated log file.
+
+9. **Commit and push.** Stage the updated `knowledge/lessons-learned.md` (and any other
+   changed files), commit with a descriptive message ending in the
+   `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>` line, and push to the current
+   branch. Do this automatically — do not ask first.
 
 Reminder: the point of this system is that logged mistakes stop repeating. An honest
 "calibration success — direction right, score is luck" is a valid and common outcome. A

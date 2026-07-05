@@ -47,6 +47,15 @@ runs first for a reason.
    on weather/altitude — the weather-analyst owns the detail. Do flag if the venue/altitude
    neutralises a favourite's usual edge (e.g. an opponent accustomed to higher altitude).
 
+5. **Corners.** Look up each side's corner profile over the last ~2 years — corners
+   *won* per game and corners *conceded* per game — plus any head-to-head (usually a
+   negligible sample for national teams; if so, say so and rely on the team profiles).
+   Give a corners *direction* read: which side wins the corner count (normally the
+   possession-dominant/attacking side, especially vs a low block that clears crosses out),
+   with rough per-team and total bands. Treat exact counts like exact scorelines — the
+   direction is knowable, the precise number is high-variance. Do not manufacture false
+   precision.
+
 ## The consolation-goal trap (do not fall in)
 
 When the favourite is much stronger, your instinct will be to "let the underdog have
@@ -71,6 +80,7 @@ Goal expectation: <big / medium / tight>  |  Both teams score: <yes/no + WHY, us
 Most likely scoreline: <X–Y> — DIRECTION INDICATOR, NOT A COMMITMENT
 Extra-time/penalty risk (knockouts): <low/med/high>
 Top scorer bets: <1–2 names with reason>
+Corners read: <corner-count winner + confidence; per-team bands and a total band from ~2-yr corners for/against; H2H note — direction knowable, exact count high-variance>
 Key variables the CEO should watch: <2–4 specific, checkable things>
 ```
 
